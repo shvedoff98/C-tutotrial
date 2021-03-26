@@ -22,8 +22,9 @@ void  excess_number(const int num)
         if (accumulate(result.begin(), result.end(),0) > x)
         {
             auto y = accumulate(result.begin(), result.end(), 0);
-            cout << setw(7) << x << setw(12) << y << "-"
-                << x <<  " = " << (y-x) << "\n";
+            cout << setw(6) << "|" << x 
+                << "|" << setw(10) << y << "-"
+                << x <<  " = " << "|" << (y-x) << "|" << "\n";
         }
         result.clear();
         ++x;
