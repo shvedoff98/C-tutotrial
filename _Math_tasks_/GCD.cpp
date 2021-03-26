@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-typedef long long ll;
+typedef unsigned long long ull;
 
-int gcd(ll a, ll b)
+unsigned int gcd(ull const a, ull const b)
 {
-    if (b == 0) {return a;};
-    return gcd(b, a % b);
+    return b == 0 ? a : gcd(b, a % b);
 }
 
 int main(int argc, char* argv[])
