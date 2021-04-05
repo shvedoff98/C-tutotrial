@@ -15,7 +15,7 @@ vector<vector<int>> pascal(int num)
 {
     int temp, temp2;
 
-    vector <vector<int>> result {{1,1}};
+    vector <vector<int>> result { {1}, {1,1} };
     vector <int> vec2, vec {1,1};
 
     for (int i=0; i<num; ++i)
