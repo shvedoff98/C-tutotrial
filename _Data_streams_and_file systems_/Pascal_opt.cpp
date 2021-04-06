@@ -1,3 +1,5 @@
+// This program prints Pascal's triangle up to 10 levels.
+
 #include <cmath>
 #include <iostream>
 #include <string>
