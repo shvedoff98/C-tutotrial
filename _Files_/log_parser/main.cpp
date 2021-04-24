@@ -1,11 +1,4 @@
-#include <fstream>
 #include "filters.h"
-#include <vector>
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 
 // Объявляем все функции , которые используем в программе
 void skip_to_int(void);
