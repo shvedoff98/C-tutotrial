@@ -26,9 +26,9 @@ int main(int argc, char* argv[])
                                                             //удалось открыть файл
     print_filters();
 
-    int choise; check_for_error(choise); // проверяем на ошибку ввода
+    int choice; check_for_error(choice); // проверяем на ошибку ввода
                                          // и вводим число
-    switch(choise)
+    switch(choice)
     {
         case 1: 
             {
