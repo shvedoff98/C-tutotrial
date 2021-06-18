@@ -9,8 +9,8 @@
 template <typename T>
 T minimum(T const a, T const  b) { return ( a < b ) ? a : b; }
 
-template <typename T1, typename... T>
-T1 minimum(T1 a, T... argc)
+template <typename T1, typename... Argc>
+T1 minimum(T1 a, Argc... argc)
 {
     return minimum(a, minimum(argc...));
 }
@@ -19,8 +19,8 @@ template <class Compare, typename T>
 T minimuc(Compare comp, T const a, T const b)
 { return comp(a, b) ?  a : b; }
 
-template <class Compare, typename T1, typename... T>
-T1 minimuc(Compare comp, T1 a, T... argc)
+template <class Compare, typename T1, typename... Argc>
+T1 minimuc(Compare comp, T1 a, Argc... argc)
 {
     return minimuc(comp, a, minimuc(comp, argc... ));
 }
