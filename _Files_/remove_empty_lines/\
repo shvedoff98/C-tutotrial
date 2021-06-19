@@ -1,0 +1,8 @@
+(04-20-2020 00:00:44.945) [137090 M] [New Launch]
+(04-20-2020 00:00:44.945) [137090 M] [(srv)after accept main socket=000002F0,remIP=10.24.212.20,remPort=57852]
+(04-20-2020 00:00:44.945) [137090 M] [(srv)before accept main socket=000002F0]
+(04-20-2020 00:00:44.945) [137090 M] [(srv)vrhost=127.0.0.1,port=557,localIP=10.24.200.39,ThreadID=5672]
+(04-20-2020 00:00:44.945) [137090 M] [(srv)1160:23:55.737.379]
+
+(04-20-2020 00:00:44.945) [137090 M] [(srv)(cli57852,IP=10.24.212.20) llm ctrl sck port number=54155]
+(04-20-2020 00:00:44.956) [137090 M] [(cli57852)This is a 64 character ID name system(Unicode)]
