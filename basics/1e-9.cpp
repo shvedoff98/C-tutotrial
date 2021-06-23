@@ -14,6 +14,7 @@ int main(){
         printf("%.4f\n",x);
         printf("%.4f\n",y);
         if( abs(x-y) < 1e-9 ){cout << "OK" << "\n"; break;}
+	else { std::cout << "Not equal." << "\n"; }
     }
     return 0;
     //code
